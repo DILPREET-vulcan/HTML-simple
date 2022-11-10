@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: yellow;
+            padding: 0;
+        }
+        input[type=text],select,input[type=password],input[type=submit]{
+            font-family: cursive;
+            background-color:#ffff;
+            width: 100%;
+            padding: 12px 20px;
+            margin:8px 0;
+            display:inline-block;
+            border:1px solid burlywood ;
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+    
+        
+        textarea{
+            font-family: cursive;
+            background-color: #ffff;
+            width: 100%;
+            padding: 12px 20px;
+            margin:8px 0;
+            display:inline-block;
+            border:1px solid burlywood ;
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <form action="myserver.php">
+        <table>
+            <tr>
+                <td><label>FIRST NAME</label></td>
+                <td><input type="text"></input></td>
+            </tr>
+
+            <tr>
+                <td><label>LAST NAME</label></td>
+                <td><input type="text"></input></td>
+            </tr>
+
+            <tr>
+                <td><label>LOGIN-ID</label></td>
+                <td><input type="text"></input></td>
+            </tr>
+
+            <tr>
+                <td><label>PASSWORD</label></td>
+                <td><input type="password"></input></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <label for="courses">SELECT SUBJECT</label>
+        <select id="courses" name="Course">
+            <option>--select--</option>
+            <option value="abc">MATHEMATICS</option>
+            <option value="abc">SCIENCE</option>
+            <option value="abc">ENGLISH</option>
+            <option value="abc">PUNJABI</option>
+            <button type="submit">submit</button>
+        </select><br>
+        
+        <table>
+            <tr>
+                <td><label>FEEDBACK</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td></tr></input></td>
+                <td><button onclick="alert(HEllO WORLD!)">close</button></td>
+            </tr>
+        </table>
+
+
+
+    </form>
+    
+      <button onclick="alert('HEllO WORLD')">close</button>
+
+    
+</body>
+</html>

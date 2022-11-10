@@ -1,0 +1,16 @@
+body{
+    border-style: double;
+    border-width: 5px;
+    border-color:red;
+}
+h1{
+    border-style: dashed;
+    border-width: 5px;
+    border-color:#120abc;
+}
+h2{
+    border:solid;
+}
+#d1{
+    border: double;
+}
